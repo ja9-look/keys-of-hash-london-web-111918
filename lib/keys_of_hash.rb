@@ -3,6 +3,6 @@ class Hash
     # code goes here
     animals = []
       arguments.each {|animal, location|
-        if argument == 
+        if argument.include?
   end
 end
