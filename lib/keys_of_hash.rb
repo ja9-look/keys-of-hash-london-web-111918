@@ -7,8 +7,8 @@ class Hash
         if value == argument
           array << key
         end
-        return array
       end
     end
+    return array
   end
 end
