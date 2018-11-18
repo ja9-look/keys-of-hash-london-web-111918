@@ -4,6 +4,7 @@ class Hash
     animals = []
       arguments.each {|animal, location|
         if argument.include?(location)
-          animals << argument
+          animals << animal
+        end
   end
 end
