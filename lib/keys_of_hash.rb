@@ -6,5 +6,6 @@ class Hash
         if argument.include?(location)
           animals << animal
         end
+      end
   end
 end
