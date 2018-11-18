@@ -4,6 +4,8 @@ class Hash
     array = []
       self.each do |key, value|
         if value == argument
-          array << value
+          array << key
+        end
+        return array
   end
 end
