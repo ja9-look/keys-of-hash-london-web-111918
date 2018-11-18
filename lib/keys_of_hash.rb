@@ -1,5 +1,5 @@
 class Hash
-  def keys_of(8arguments)
+  def keys_of(*arguments)
     # code goes here
     
   end
