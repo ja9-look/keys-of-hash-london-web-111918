@@ -3,7 +3,7 @@ class Hash
     # code goes here
     animals = []
       arguments.each do |animal, location|
-        if argument.include?(location)
+        if arguments.include?(location)
           animals << animal
         end
         return animals
